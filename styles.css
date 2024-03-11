@@ -17,7 +17,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-}
+}   
 
 .carta {
     font-size: 2em;
@@ -28,8 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease;
-    /* Agregamos una transición para suavizar la rotación */
+    transition: transform 0.3s ease; 
 }
 
 .carta:hover {
@@ -44,5 +43,25 @@ body {
 .volteada {
     pointer-events: none;
     transform: rotateY(180deg);
-    /* Rotamos la carta 180 grados cuando se voltee */
 }
+
+header {
+    background-color: ccc;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#gameInfo {
+    padding: 10px;
+}
+
+#root {
+    margin-top: 100px;
+}
+
