@@ -1,0 +1,8 @@
+.ventana_modal{
+    background-color: rgba(255, 0, 0, 0.35);
+    grid-column: 1/9;
+    grid-row: 1/9;
+
+    z-index: 100;
+    display: none;
+}
